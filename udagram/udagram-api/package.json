@@ -26,6 +26,7 @@
     "bcryptjs": "2.4.3",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
+    "cp": "^0.2.0",
     "dotenv": "^8.2.0",
     "email-validator": "^2.0.4",
     "express": "^4.16.4",
@@ -33,8 +34,8 @@
     "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
     "sequelize": "^6.5.0",
-    "sequelize-typescript": "^2.1.3"
-  },
+    "sequelize-typescript": "^2.1.3",
+},
   "devDependencies": {
     "@types/bluebird": "^3.5.26",
     "@types/cors": "^2.8.6",

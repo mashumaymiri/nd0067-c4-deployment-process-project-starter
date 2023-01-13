@@ -28,6 +28,8 @@ jobs:
       - run:
           name: Install API Dependencies
           command: |
+            cd nd0067-c4-deployment-process-project-starter/udagram/udagram-api
+            eb init
             npm run api:install
       # TODO: Lint the frontend
       - run:
