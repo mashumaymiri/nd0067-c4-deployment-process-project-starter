@@ -60,7 +60,6 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME
             npm run deploy
             
 workflows:
